@@ -1,3 +1,6 @@
+![Uploading image.png… | 300]()
+
+
 # GraphBuilder
 
 A simple Java application for plotting mathematical functions with a user-friendly interface.
@@ -10,3 +13,6 @@ GraphBuilder is a laboratory work project (№1, Variant 7) designed to visualiz
 - Customizable interval input (min X, max X)
 - Automatic coordinate scaling
 - Visual axis labels
+
+
+<ps* The program is still very raw, the graph display requires changes, as does the program interface itself.
