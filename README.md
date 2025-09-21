@@ -1,4 +1,5 @@
-![Uploading image.png… | 300]()
+<img width="918" height="739" alt="image" src="https://github.com/user-attachments/assets/cb7c34bd-bd69-4a3e-9052-abbc25a81835" />
+
 
 
 # GraphBuilder
@@ -15,4 +16,4 @@ GraphBuilder is a laboratory work project (№1, Variant 7) designed to visualiz
 - Visual axis labels
 
 
-<ps* The program is still very raw, the graph display requires changes, as does the program interface itself.
+> ps* The program is still very raw, the graph display requires changes, as does the program interface itself.
