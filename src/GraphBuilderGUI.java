@@ -37,10 +37,6 @@ public class GraphBuilderGUI extends JFrame {
         JPanel panel = new JPanel(new FlowLayout());
         panel.setBackground(new Color(50, 50, 50));
 
-        JLabel functionLabel = new JLabel("Функція: y = tan(x²)/(x² + 1) (Варіант 7)");
-        functionLabel.setFont(new Font("Arial", Font.BOLD, 14));
-        functionLabel.setForeground(Color.CYAN);
-
         JLabel minXLabel = new JLabel("Мін. X:");
         minXLabel.setForeground(Color.WHITE);
         JLabel maxXLabel = new JLabel("Макс. X:");
@@ -48,20 +44,25 @@ public class GraphBuilderGUI extends JFrame {
 
         JButton buildButton = new JButton("Побудувати графік");
         buildButton.setBackground(new Color(70, 130, 180));
-        buildButton.setForeground(Color.BLACK);
+        buildButton.setForeground(Color.WHITE);
         buildButton.setFont(new Font("Arial", Font.BOLD, 12));
+        buildButton.setOpaque(true);
+        buildButton.setBorderPainted(false);
+        buildButton.setFocusPainted(false);
         buildButton.addActionListener(e -> buildGraph());
 
         JButton resetButton = new JButton("Скинути");
         resetButton.setBackground(new Color(220, 20, 60));
-        resetButton.setForeground(Color.BLACK);
+        resetButton.setForeground(Color.WHITE);
+        resetButton.setOpaque(true);
+        resetButton.setBorderPainted(false);
+        resetButton.setFocusPainted(false);
         resetButton.addActionListener(e -> {
             minXField.setText("0");
             maxXField.setText("1.4");
             statusLabel.setText("Параметри скинуто");
         });
 
-        panel.add(functionLabel);
         panel.add(Box.createHorizontalStrut(20));
         panel.add(minXLabel);
         panel.add(minXField);
@@ -105,13 +106,12 @@ public class GraphBuilderGUI extends JFrame {
         String aboutText = "GraphBuilder - Побудовник графіків функцій\n" +
                 "Версія: 1.0.0\n\n" +
                 "Лабораторна робота №1\n" +
-                "Варіант 7: y = tan(x²)/(x² + 1)\n\n" +
+                "Варіант 7: y = tg(x²)/(x² + 1)\n\n" +
                 "Функціональність:\n" +
-                "• Побудова графіків\n" +
-                "• Діалоговий режим введення меж\n" +
-                "• Автоматичне масштабування\n" +
-                "• Візуалізація осей\n\n" +
-                "Створено з Java Swing студентом 3157ст3 Козаченко Денис";
+                "- Побудова графіків\n" +
+                "- Автоматичне масштабування\n" +
+                "- Візуалізація осей\n\n" +
+                "Створено з Java Swing";
 
         JOptionPane.showMessageDialog(this, aboutText, "Про програму", JOptionPane.INFORMATION_MESSAGE);
     }

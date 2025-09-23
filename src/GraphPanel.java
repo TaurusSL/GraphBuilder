@@ -8,7 +8,7 @@ public class GraphPanel extends JPanel {
     private WindowParams windowParams;
     private List<Point> graphPoints = new ArrayList<>();
     private double minX, maxX;
-    private String functionInfo = "y = tan(x²)/(x² + 1)";
+    private String functionInfo = "y = tg(x²)/(x² + 1)";
 
     public GraphPanel() {
         setBackground(new Color(30, 30, 30));
