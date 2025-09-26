@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img width="877" height="735" alt="image" src="https://github.com/user-attachments/assets/05b3c865-502e-4157-ae4c-07a923b36c9c" />
+  <img width="874" height="737" alt="image" src="https://github.com/user-attachments/assets/6af522ab-0c96-43a8-9545-b8f25476165d" />
 </div>
 
 # GraphBuilder
